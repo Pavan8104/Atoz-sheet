@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void selectionsort(int arr[], int n )
+ for (int i = 0 ; i<n-1 ; i++){
+   int mini = i;
+for (int j = i+1 ; i <n ; i++){
+ if (arr[j] <arr[mini]){
+   mini = j;
+ }
+}
+int temp  = arr[min];
+arr[mini] = arr[i];
+arr[i] = temp;
+cout <<"After  selection sort"<<"\n"<<;
+for (int i = 0 ; i <n ; i++){
+  cout<<arr[i] <<"    ";
+}
+cout<<"\n"<<
+
+// we use comparing each element then sort 
+//sabse chote s compare krte hai 
