@@ -1,0 +1,18 @@
+A std::list is a sequence container similar to a vector. However, it is implemented as a doubly-linked list, which means its elements are not stored in contiguous memory locations.
+
+ It includes most of the functions found in vector like size(), empty(), clear(), begin(), etc. The main additions are push_front() and pop_front().
+While a vector's insert() operation at the beginning is costly (O(n)) because all other elements must be shifted, a list can do it in constant time (O(1)).
+
+#include <iostream>
+#include<lists>
+using namespace std;
+lists<int> ls;
+ls.push_back(2);
+ls.emplace_backe(2);
+ls.push_front(5);
+
+for(int 1: ls){
+cout<<i<<;
+}
+return 0;
+}
