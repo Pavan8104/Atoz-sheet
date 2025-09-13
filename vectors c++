@@ -1,0 +1,39 @@
+vectors int<v>;
+
+//Operations of vector 
+
+v.pushback(1);
+
+emplace_back(2) // add but fast;
+
+
+//initilizations
+vector<int> v(5, 100); // Creates a vector of size 5, with all elements as 100
+
+//By copying other vector
+vector<int> V2<v1>
+
+//accessingt
+cout<<v[10];
+
+
+
+//Accessing elements using the index
+cout<<v[0]
+
+//iterator
+
+vector <int> :: iterator it = v.begin();
+  cout<< *(it); // dereference to get the value
+
+
+  // Common Iterator Functions 
+
+  v.erase(iterator);
+  v.iterator(iterator, value);
+  v.size();
+  v.popback();
+  v.clear();
+  v.empty():
+  
+  
