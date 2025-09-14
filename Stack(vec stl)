@@ -1,0 +1,6 @@
+LIFO = Last In first Out ;
+
+Key Restriction: You cannot access elements by index. You can only interact with the element at the top of the stack.
+Common Functions: All operations (push, pop, top) are very fast, taking O(1) time.
+
+////Iske baad stacks or queus krne hai 
