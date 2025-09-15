@@ -34,6 +34,6 @@ vector <int> :: iterator it = v.begin();
   v.size();
   v.popback();
   v.clear();
-  v.empty():
+  v.empty();
   
   
