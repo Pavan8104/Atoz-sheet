@@ -3,4 +3,20 @@ LIFO = Last In first Out ;
 Key Restriction: You cannot access elements by index. You can only interact with the element at the top of the stack.
 Common Functions: All operations (push, pop, top) are very fast, taking O(1) time.
 
-////Iske baad stacks or queus krne hai 
+
+#include <iostream>
+#include stack>
+using namespace std;
+int main (){
+stack<int> st;
+st.push(1);
+st.push(2);
+st.push(3);
+st.push(4);
+cout<< " New Top element" << st.top() << endl;
+
+cout<< "Is stack empty " << st.empty() << endl;
+cout<<" size of stack " << st.size() << endl;
+
+return 0 ;
+}
